@@ -1,0 +1,106 @@
+* {
+    font-family: Arial;
+  }
+  
+header {
+    background-color: mediumblue;
+    margin: -10px -10px 0 -10px;
+}
+  
+nav a {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.contingut-header, .article1, .article2 {
+    display: flex;
+
+}
+
+.nav, .formulari {
+    width: 50%;
+}
+
+.nav {
+    margin-left: 200px;
+    margin-top: 8px;
+}
+  
+.formulari {
+    margin-left: 600px;
+    padding: 10px;
+}
+  
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+  
+button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: darkturquoise ;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+  
+.main {
+    width: 80%;
+    transform: translateX(12.5%);
+    -webkit-transform: translateX(12.5%);
+    -moz-transform: translateX(12.5%);
+    -ms-transform: translateX(12.5%);
+    -o-transform: translateX(12.5%);
+    justify-content: center;
+}
+
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: lighter;
+
+}
+  
+p {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  
+h2 {
+    color: blue;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+  
+img {
+    width: 400px;
+    
+    border: 1px solid black;
+    margin: 10px;
+}
+  
+.contingut-article1, .contingut-article2 {
+    width: 70%;
+}
+
+.imatge1, .imatge2 {
+    width: 30%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 18px;
+}
